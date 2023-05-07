@@ -470,6 +470,7 @@ text .span-footer {
   margin: 0;
   gap: 48px;
   column-gap: 24px;
+  padding: 0;
 }
 
 .listportt {
