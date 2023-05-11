@@ -108,7 +108,6 @@ img {
   display: flex;
   margin: 0;
   padding-left: 0;
-  margin-bottom: 72px;
 }
 
 .listt {
@@ -145,8 +144,18 @@ img {
 }
 
 .mainsection {
+  max-width: 1440px;
   background: var(--dark);
   padding: 188px 0;
+  background-image: url(../images/people-office\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 1440px 600px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office\ 1.png);
 }
 
 .maintext {
@@ -320,7 +329,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--dark);
-  text-align: center;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -332,7 +340,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
   margin: 0;
-  text-align: center;
 }
 
 .footer {
@@ -340,7 +347,7 @@ img {
   padding: 100px 0;
 }
 
-text .span-footer {
+.span-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -448,6 +455,7 @@ text .span-footer {
 }
 
 .person {
+  text-align: center;
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -471,6 +479,7 @@ text .span-footer {
   gap: 48px;
   column-gap: 24px;
   padding: 0;
+  padding-left: 0;
 }
 
 .listportt {
@@ -483,13 +492,13 @@ text .span-footer {
   align-items: flex-start;
   margin: 0;
   margin-bottom: 72px;
+  padding-left: 0;
 }
 
 .personimg {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .personand {
