@@ -310,6 +310,7 @@ img {
   margin: 0;
   padding-left: 0;
   border-radius: 0px 0px 4px 4px;
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .bac {
@@ -551,4 +552,60 @@ img {
   background-image:url(../images/astronaut\ 1.svg);
   width: 64px;
   height: 64px;
+}
+.seti {
+  padding: 32px 0;
+}
+.ikon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.instagram {
+  background-color:#4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #404bbf;
+  width:16px;
+  height:16px;
+  fill:#f4f4fd;
+  background-image: url(../images/instagram\ 2.svg);
+}
+.twitter {
+  background-color:#4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #404bbf;
+  width:16px;
+  height:16px;
+  fill:#f4f4fd;
+  background-image: url(../images/twitter\ 1.svg);
+}
+.facebook {
+  background-color:#4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #404bbf;
+  width:16px;
+  height:16px;
+  fill:#f4f4fd;
+  background-image: url(../images/facebook\ 1.svg);
+}
+.in {
+  background-color:#4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #404bbf;
+  width:16px;
+  height:16px;
+  fill:#f4f4fd;
+  background-image: url(../images/icon\ send.svg);
 }
