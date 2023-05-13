@@ -504,3 +504,51 @@ img {
 .personand {
   width: calc((100% - 48px) / 3);
 }
+.ikonStrategy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-image:url(../images/antenna\ 1.svg);
+  width: 64px;
+  height: 64px;
+}
+.ikonPunctuality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-image:url(../images/clock\ 1.svg);
+  width: 64px;
+  height: 64px;
+}
+.ikonDiligence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-image:url(../images/diagram\ 1.svg);
+  width: 64px;
+  height: 64px;
+}
+.ikonTechnologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-image:url(../images/astronaut\ 1.svg);
+  width: 64px;
+  height: 64px;
+}
